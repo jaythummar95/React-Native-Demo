@@ -2,16 +2,14 @@ import Axios from 'axios';
 import { Storage } from '../constants/GPStorage'
 
 
-// const BASE_URL = "http://aksharcomposite.in/grocery_store/";
-// const BASE_URL = "http://sellpoint.shop/";
-const BASE_URL = "http://groceriesland.com/";
+const BASE_URL = "";
 
 const BASE_URL_DRIVER = `${BASE_URL}app-deliveryman-`;
 
-export const TANDC_URL = "http://groceriesland.com/app-terms-conditions"
-export const PP_URL = "http://groceriesland.com/app-privacy-policy"
-export const ABOUT_US_RL = "http://groceriesland.com/app-about-us"
-export const CONTACT_UC_URL = "http://groceriesland.com/app-contact-us"
+export const TANDC_URL = ""
+export const PP_URL = ""
+export const ABOUT_US_RL = ""
+export const CONTACT_UC_URL = ""
 
 
 export const userData = async () => {
